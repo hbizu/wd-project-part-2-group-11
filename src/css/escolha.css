@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../../img/bmw_carro_moto.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Alinha os botões na parte inferior */
+    gap: 550px; /* Espaço entre os botões */
+    padding-bottom: 40px; /* Distância entre os botões e o fim da página */
+    flex-grow: 1; /* Expande o div para ocupar o espaço entre o header e os botões */
+}
+
