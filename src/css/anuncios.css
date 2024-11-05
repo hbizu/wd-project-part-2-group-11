@@ -14,6 +14,29 @@ body {
 
 }
 
-.anuncios{
+.anuncios-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 0;
+    padding-top: 50px;
+}
 
+.anuncios-row {
+    display: flex;
+    gap: 30px;
+}
+
+.anuncio {
+    flex: 1; 
+    padding: 80px; 
+    border-radius: 25px;
+    background-color: #d9d9d9;
+    color: black;
+    border: none;
+    font-size: 16px;
+    appearance: none;
+    cursor: pointer;
+    text-align: center;
 }
