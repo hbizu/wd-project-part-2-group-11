@@ -6,34 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
     <link rel="stylesheet" href="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/escolha.css">
-    <link rel="stylesheet" href="./css/botoes.css">
     <link rel="stylesheet" href="./css/paginaInicial.css">
 </head>
 
 <body>
-    <!--Frame Página Inicial c/Login-->
+
     <header> 
 
         <nav class = "row d-flex align-items-center"> 
-            <a href = "escolha.html" class = "col-1 ms-5 w-auto" >
+            <a href = "paginaInicialSLogin.html" class = "col-1 ms-5 w-auto" >
                 <img src= "../img/bmw_logotipo_s_fundo.png" alt="BMW Logo" id = "logo">                   
             </a>
         
-            <div class = "col-3 ms-auto d-flex justify-content-end m-3">
-                <a href = "perfilCliente.html" target = "_self">
-                    <button class="botao-perfil">Perfil</button>
+            <div class = "col-3 ms-auto d-flex justify-content-end align-items-center">
+                <a href="perfilCliente.html" target="_self">
+                    <button class="btn btn-outline-light rounded-pill me-4 btn-custom">Perfil</button>
                 </a>
+                
             </div>
         </nav>
         
     </header>
 
     <div class="container d-flex flex-column align-items-center justify-content-end vh-100 pb-5">
-        <!-- Botão de compra -->
+
         <button class="btn btn-outline-light mb-4 botao-comprar">Comprar</button>
 
-        <!-- Linha com os anuncios -->
         <div class="d-flex overflow-x-auto gap-5 anuncios">
             <div class="card col-md-4 col-4">
                 <div class="bg-light card-quadrado"></div>
@@ -56,7 +54,6 @@
         </div>
         
     </div>
-    <!-- END Frame Página Inicial c/Login-->
-    
+
 </body>
 </html>
