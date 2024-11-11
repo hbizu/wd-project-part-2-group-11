@@ -1,0 +1,43 @@
+ /* Estilo do quadrado preto */
+ .quadrado-preto {
+    width: 30vw;
+    height: 500px; /* Mantendo a altura em 500px */
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 40px 32px;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacao-stand{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 60px;
+}
+
+.informacao-stand p {
+    font-size: 1.1em;
+}
+
+.informacao-stand-titulo{
+    align-self: start;
+}
+
+/* Estilo do conteúdo */
+.informacao-stand-titulo h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.informacao-stand-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.informacao-stand-conteudo .icon {
+    margin-right: 10px;
+}
