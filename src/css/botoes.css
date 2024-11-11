@@ -57,7 +57,7 @@
     font-size: 14px;
     text-align: center;
     cursor: pointer;
-    text-decoration: none; /* Remove sublinhado do link */
+    text-decoration: none;
 }
 
 
@@ -69,9 +69,9 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-  }
+}
 
-  .botaoLogin{
+.botaoLogin{
     background-color: transparent;
     color : white; 
     border : 2px solid white;
