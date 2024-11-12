@@ -99,7 +99,6 @@
 .botaoComprar {
 background-color: transparent;
 border: 2px solid white;
-
 color:white;
 border-radius:25px;
 padding: 10px 20px;
@@ -113,5 +112,29 @@ cursor:pointer;
 }
 
 .botaoComprar:active{
+    background-color: #0190C8;
+}
+
+.botaoEnviarMensag {
+   position:absolute;
+    bottom:50px;
+    right:100px;
+    margin: 20px auto;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.botaoEnviarMensag:hover {
+    background-color: #000;
+    color: white;
+}
+
+.botaoEnviarMensag:active {
     background-color: #0190C8;
 }
