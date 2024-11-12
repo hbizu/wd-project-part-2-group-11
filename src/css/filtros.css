@@ -37,7 +37,6 @@ body {
 
 .filter {
     flex: 1;
-
 }
 
 .filter select {
@@ -94,4 +93,21 @@ body {
 
 .botaoFiltros:active {
     background-color: #0190C8; 
+}
+
+.filter input[type="number"] {
+    padding: 10px;
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 25px; 
+    border: none; 
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: rgba(220, 220, 220, 0.5); 
+    color: white; 
+    text-align: center;
+}
+
+.filter input[type="number"]::placeholder {
+    color: white;
 }

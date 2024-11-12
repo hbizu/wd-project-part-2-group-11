@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/botoes.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/anuncios.css">
+    <link rel="stylesheet" href = "css/alterAnuncios.css">
+   
+    <style>
+
+        body{
+            overflow: hidden;
+            justify-content: center;
+        }
+        
+        .filter-grid {
+            gap: 60px; 
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="header">
+        <nav>
+            <div class="logo">
+                <a href="paginaInicialCLogin.html">
+                    <img src="../img/bmw_logotipo_s_fundo.png" alt="BMW Logo" width="230" height="100">
+                </a>
+            </div>
+        </nav>
+        <nav>
+            <div class="col-3">
+                <a href="suporte.html" target="_self">
+                    <button class="botaoHeader">Suporte</button>
+                </a>
+                <a href="Perfil" target="_self">
+                    <button class="botao-perfil">Perfil</button>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <a href="anunciosAdmin.html" target="_self" class = "back" style = "position : absolute; top: 140px; left: 85px; color : black;">←</a> 
+    <div class="content-wrapper">
+        <div class="carousel-container">
+            <input type="radio" id="radio1" name="carousel" checked>
+            <input type="radio" id="radio2" name="carousel">
+            <input type="radio" id="radio3" name="carousel">
+            <input type="radio" id="radio4" name="carousel">
+            <div class="carousel-slide">
+                <div class="carousel-item">Slide 1</div>
+                <div class="carousel-item">Slide 2</div>
+                <div class="carousel-item">Slide 3</div>
+                <div class="carousel-item">Slide 4</div>
+            </div>
+            <div class="carousel-navigation">
+                <label for="radio1"></label>
+                <label for="radio2"></label>
+                <label for="radio3"></label>
+                <label for="radio4"></label>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="filter-grid">
+                <div class = "filterBox"> Modelo </div>
+                <div class = "filterBox"> Segmento</div>
+                <div class = "filterBox"> Ano </div>
+                <div class = "filterBox"> Quilometros </div>
+                <div class = "filterBox"> Combustível </div>
+                <div class = "filterBox"> Preço</div>
+            </div>
+            <a href = "confAnuncio.html">
+                <button class = "botaoEscolha" style = "margin-top: 20px; border-color: white; color:white" >
+                    Remover
+                </button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
