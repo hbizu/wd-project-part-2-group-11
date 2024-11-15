@@ -4,41 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
+    <title>PerfilCliente</title>
     <link rel="stylesheet" href="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/perfil.css">
+    <link rel="stylesheet" href="./css/perfilCliente.css">
 </head>
 
 <body>
     
     <header> 
         <nav class = "row d-flex align-items-center"> 
-            <a href = "paginaInicialSLogin.html" class = "col-1 ms-5 w-auto" >
+            <a href = "paginaInicialSLogin.html" class = "col-1 ms-5 w-auto" id="logo-link">
                 <img src= "../img/bmw_logotipo_s_fundo.png" alt="BMW Logo" id = "logo">                   
             </a>
         
             <div class = "col-3 ms-auto d-flex justify-content-end align-items-center">
-                <a href="suporte.html" target="_self">
-                    <button class="btn btn-outline-light rounded-pill me-4 px-4">Suporte</button> 
+                <a href="suporte.html" target="_self" class="btn btn-outline-light rounded-pill me-4 px-4">
+                    Suporte
                 </a>
-                
-                <a href="perfilCliente.html" target="_self">
-                    <button class="btn btn-outline-light rounded-pill me-4 btn-custom">Perfil</button> 
+                <a href="perfilCliente.html" target="_self" class="btn btn-outline-light rounded-pill me-4 btn-custom">
+                    Perfil
                 </a>
-
             </div>
             
         </nav>
     </header>
     
     <div class="d-flex vh-100 justify-content-center align-items-center">
-        <div class="card bg-light bg-opacity-75 rounded-5 d-flex flex-column align-items-center justify-content-center p-3" style="width: 470px; height: 370px; gap: 15px;">
+        <div class="card bg-light bg-opacity-75 rounded-5 d-flex flex-column align-items-center justify-content-center p-3">
         
-            <div class="placeholder mb-3"style="height: 30px;"></div>
-            <div class="placeholder mb-3" style="height: 30px;"></div>
-            <div class="placeholder mb-3" style="height: 30px;"></div>
+            <div class="placeholder mb-3"></div>
+            <div class="placeholder mb-3"></div>
+            <div class="placeholder mb-3"></div>
 
-            <button class="btn btn-outline-dark rounded-pill px-5" style = "margin-top: 25px;">Log-Out</button>
+            <a href="paginaInicialSLogin.html" class="botao-logout btn btn-outline-dark rounded-pill px-5">Log-Out</a>
+            <a href="#" class="botao-dados btn btn-outline-dark rounded-pill px-5">Alterar dados</a>
         </div>
     </div>
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MensagemAdmin</title>
     <link rel="stylesheet" href="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/perfil.css">
+    <link rel="stylesheet" href="./css/mensagem.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
@@ -14,36 +14,39 @@
     
     <header> 
         <nav class = "row d-flex align-items-center"> 
-            <a href = "paginaInicialSLogin.html" class = "col-1 ms-5 w-auto" >
+            <a href = "paginaInicialSLogin.html" class = "col-1 ms-5 w-auto" id="logo-link">
                 <img src= "../img/bmw_logotipo_s_fundo.png" alt="BMW Logo" id = "logo">                   
             </a>
-        
             <div class = "col-3 ms-auto d-flex justify-content-end align-items-center">
-                <a href="suporte.html" target="_self">
-                    <button class="btn btn-outline-light rounded-pill me-4 px-4">Suporte</button> 
+                <a href="suporte.html" target="_self" class="btn btn-outline-light rounded-pill me-4 px-4">
+                    Suporte
                 </a>
-                
-                <a href="perfilAdmin.html" target="_self">
-                    <button class="btn btn-outline-light rounded-pill me-4 btn-custom">Perfil</button> 
+                <a href="perfilAdmin.html" target="_self" class="btn btn-outline-light rounded-pill me-4 btn-custom">
+                    Perfil
                 </a>
-
             </div>
-            
         </nav>
     </header>
 
     <div class="d-flex vh-100 justify-content-center align-items-center">
 
-        <div class="card bg-light bg-opacity-75 rounded-5 d-flex flex-column align-items-center justify-content-start p-4" style="width: 1000px; height: 500px; gap: 20px;">
+        <div class="card bg-light bg-opacity-75 rounded-5 d-flex flex-column align-items-center justify-content-start p-4 card-principal">
 
-        <div style="position: relative; width: 100%; font-size: 18px; margin-bottom: 10px; align-self: flex-start;">
-            <div style="position: absolute; top: 0; left: 50px; display: flex; align-items: center; justify-content: center; width: 80px; height: 25px; border-radius: 20px; background-color: #e0e0e0; cursor: pointer;">
-            <i class="fas fa-arrow-left"></i>
+        <div class="titulo-icones" >
+            <div class="seta">
+                <a href="adminMensagens.html">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
             </div>
-            <i class="fas fa-trash-alt" style="position: absolute; top: 0; right: 0; font-size: 20px; cursor: pointer;"></i>
+            <i class="fas fa-trash-alt lixeira"></i>
         </div>
     
-        <div class="placeholder mb-3" style="height: 400px; margin-top: 20px;"></div>
+        <div class="placeholder mb-3">
+            <div class="texto-cabecalho">
+                <span class="mensagem-texto">Mensagem:</span>
+                <span class="data-texto">01/01/2024</span>
+            </div>
+        </div>        
     
         </div>
     </div>

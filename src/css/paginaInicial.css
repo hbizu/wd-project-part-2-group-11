@@ -12,8 +12,8 @@ nav {
     height: 100%;
 }
 
-a,
-#logo {
+#logo-link,
+ #logo {
     height: 100%;
 }
 
@@ -37,12 +37,12 @@ header {
     white-space: nowrap;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    width: 100%;
+    width: 90%;
 }
 
 .card{
-    height: 207px;
-    width: 368px;
+    height: 180px;
+    width: 320px;
 }
 
 .card-quadrado {
