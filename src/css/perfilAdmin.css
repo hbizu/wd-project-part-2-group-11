@@ -80,7 +80,15 @@ header {
     font-size: 18px; 
     margin-bottom: 10px; 
     align-self: flex-start;
+    text-decoration: none; 
+    color: black;
 } 
+
+.titulo-mensagem:hover {
+    color: black; 
+    text-decoration: none;
+}
+
 
 .lixeira{
     position: absolute; 
@@ -99,6 +107,6 @@ header {
 .linhas-mensagem{
     height: 30px; 
     border-radius: 0;
-    cursor: default; 
+    cursor: pointer; 
 }
 

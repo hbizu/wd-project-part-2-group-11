@@ -74,5 +74,5 @@ header {
 .linhas-mensagem{
     height: 30px; 
     border-radius: 0;
-    cursor: default; 
+    cursor: pointer; 
 }
