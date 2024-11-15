@@ -101,7 +101,7 @@ input[type="radio"]:checked + label {
     text-align: center;
     font-size: 14px;
     background-color: #f9f9f9; 
-    color: white; 
+    color: black; 
 }
 
 .filter-grid input[type="text"]::placeholder,
@@ -110,7 +110,7 @@ input[type="radio"]:checked + label {
 }
 
 .filterBox{
-    padding: 5px 20px; 
+    padding: 10px 20px; 
     width: 100%;
     border-radius: 25px;
     font-size: 16px; 
