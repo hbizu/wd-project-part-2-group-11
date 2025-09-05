@@ -14,7 +14,3 @@ The goal of **Part 2** was to build a **static website** for a BMW stand using:
 
 🔜 **Part 3 of the project (with PHP integration) is available here:**  
 [👉 Click to view Part 3](https://github.com/hbizu/wd-project-part-3-group-11.git)
-
----
-
-🧑‍💻 Built with teamwork and lots of coffee ☕🚀
